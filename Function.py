@@ -65,7 +65,11 @@ def blackjack(a,b,c):
     elif sum>21:
         return 'Bust'
 
-
+def SummerOf69(arr):
+    sum = 0
+     for i in range(0,len(arr)):
+         sum = sum+arr[i]
+    print(sum)
 
 if __name__ == '__main__':
     answer = pig_latin("Omar")
@@ -81,3 +85,4 @@ if __name__ == '__main__':
     print(has_33 ([1,1,3,3,1]))
     print(paper_doll ('Hello'))
     print(blackjack(9,9,9))
+    SummerOf69([1,2,3,6,8,8,9])
